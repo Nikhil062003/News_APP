@@ -25,7 +25,7 @@ function bindData(articles) {
         fillDataInCard(cardClone, article);
         cardsContainer.appendChild(cardClone);
     });}else{
-        console.error('Data is undefined or not an array:', data);
+        console.error('Data is undefined or not an array:', articles);
     }
 }
 
